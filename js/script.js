@@ -39,7 +39,7 @@ console.log(studentiClasse34);
 for (i = 0; i < studentiClasse34.length; i++) {
     var studente = studentiClasse34[i];
     console.log(studente.nome, studente.cognome);
-    /*
+    /* esempio dello stesso esercizio con ciclo for in, invece del ciclo for
     for (var key in studente) {
         console.log(studente[key]);
     }
